@@ -16,6 +16,6 @@ def steven():
 
 @app.route('/<number>')
 def hello(number):
-    return('Shalom. That is a great lucky number. My favorite is also #' + number)
+    return('Hello. That is a great lucky number. My favorite is also #' + number)
 
 app.run(debug=True, host='0.0.0.0')
